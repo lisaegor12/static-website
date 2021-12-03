@@ -5,7 +5,8 @@
     1.3.1 Create S3 as a static web.
     1.3.2 Create S3 for logs form CloudFront
     1.3.2 Create CloudFront 
-
+   #Have trouble with access to log bucket... 
+   #Made S3 bucket and CF by hand. If at the end wil be the same error, I will try to host on this
 
 2. Web + Contentful CMS
 
