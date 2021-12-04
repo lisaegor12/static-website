@@ -11,6 +11,11 @@
 2. Web + Contentful CMS  
 # install contentfull cli
   2.1 Obtain Creds for Contentfull
-
+  #Personal Access Token +
+  #Delivery token , space Id
+  #clone from repo. and dependencies
+  2.2 Manag. T, Deliver. T, ID ->> .env
+  2.3 npm run setup 
+  #See some content on Contentful. Try to find out how to work with it )))
 
 3.Set up CI/CD
