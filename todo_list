@@ -8,6 +8,7 @@
    #Have trouble with access to log bucket... 
    #Tried to figure out how to troubleshoot (policies, user etc)
    #I made  infrastructure by hand. If at the end of time will be the same error, then the website will be hosted on this infrastructure((( (i hope not)
+   # the same error
    
 2. Web + Contentful CMS  
 # install contentfull cli
@@ -17,10 +18,9 @@
   #clone from repo. and dependencies
   2.2 Manag. T, Deliver. T, ID ->> .env
   2.3 npm run setup 
-  
   #See some content on Contentful. Try to find out how to work with it )))
-  
   2.4 gatsby develop  #localhost:8000 everything works , Preview
   2.5 gatsby build #Build of website
+  2.6 Added content to check Contentful - OK!
 
 3.Set up CI/CD
