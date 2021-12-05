@@ -12,11 +12,7 @@ jobs:
   my_test:
     runs-on: ubuntu-latest
 
-    steps:
-    
-    - name: pwd
-      run : pwd
-      
+    steps:  
     - name: update
       run : sudo apt update
       
