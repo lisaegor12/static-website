@@ -43,6 +43,7 @@
   #if i make .zip file it will be good for delivery
   #but as I know it is impossible to unzip the bucket in s3
   #at the moment I can`t find a solution for this problem
+  #I saw that people have the same problem, and the use Lambda. But i never worked with it(
   
   just in case, I'll leave the domain for CF -https://d18vkc1hzzhnvl.cloudfront.net/
   The assignment was interesting, but I failed.
