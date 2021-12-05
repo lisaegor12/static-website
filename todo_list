@@ -32,5 +32,7 @@
 3) Dev configures the site in Contentful
 4) git add . -> git commit -> git push
 5) Git Actions triggered---> build ---> deploy to S3 using credentials
+  3.2 СI - completed 
+  #Finally !!!! I made a build. СI - finished. Just a little bit left )) 
 
   
