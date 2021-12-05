@@ -16,9 +16,6 @@ jobs:
     - name: Git clone
       uses: actions/checkout@v1 
     
-    - name: Execute few commands
-      run : |
-        nodejs -v
 
     - name: List current folder
       run : ls -la 
