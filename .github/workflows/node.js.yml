@@ -30,5 +30,6 @@ jobs:
     - run: sudo apt install curl
     - run: curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
     - run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+    - run: source ~/.profile 
     - run: nvm install 10
     - run: gatsby build
