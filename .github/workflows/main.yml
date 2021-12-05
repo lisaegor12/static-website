@@ -22,7 +22,7 @@ jobs:
     - name: Git clone
       uses: actions/checkout@v1 
       
-    - name: npm install
+    - name: npm install 
       run : npm install
      
     - name: Node.js
