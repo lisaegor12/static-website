@@ -1,28 +1,30 @@
-# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+name: CI-CD
 
-name: Node.js CI
-
-on:
+on: 
   push:
-    branches: main
+    branches: 
+      - main
   pull_request:
-    branches: main
+    branches:
+      - main
 
 jobs:
-  build:
+  my_test:
     runs-on: ubuntu-latest
 
     steps:
     - name: Git clone
-    - uses: actions/checkout@v1
+      uses: actions/checkout@v1 
     
-    - name: update
-      run: sudo apt update
-      
-    - name: dependeciecs
-      run: npm install 
-      
-    - name: build 
-      run: gatsby build
+    - name: Execute few commands
+      run : |
+        sudo apt update
+        sudo apt install curl
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+        source ~/.bashrc
+        nvm install v16.12.0
+
+    - name: List current folder
+      run : ls -la 
+  
     
