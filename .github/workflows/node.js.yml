@@ -28,7 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: sudo apt install curl
+    - run: touch ~/.bash_profile 
     - run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
     - run: source ~/.profile 
+    - run: nvm --version
     - run: nvm install 10
     - run: gatsby build
