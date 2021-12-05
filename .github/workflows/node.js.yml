@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [ 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -27,15 +27,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: sudo apt update
-    - run: sudo apt -y upgrade 
-    - run: sudo apt install nodejs
     - run: nodejs -v
-    - run: sudo apt install npm
     - run: npm install 
     - run: sudo apt install curl
-    - run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh
+    - run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
     - run: source ~/.bashrc
     - run: nvm -v
-    - run: gatsby develop
     - run: gatsby build
     
