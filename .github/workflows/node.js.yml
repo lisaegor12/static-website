@@ -23,6 +23,6 @@ jobs:
     - name: dependeciecs
       run: npm install 
       
-    -name: build 
+    - name: build 
       run: gatsby build
     
