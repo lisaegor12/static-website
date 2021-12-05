@@ -16,7 +16,13 @@ jobs:
     steps:
     - name: Git clone
     - uses: actions/checkout@v1
+    
+    - name: update
       run: sudo apt update
+      
+    - name: dependeciecs
       run: npm install 
+      
+    -name: build 
       run: gatsby build
     
