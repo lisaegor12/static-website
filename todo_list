@@ -25,4 +25,12 @@
 
 3.Set up CI/CD
   3.1 make a workflow with Build and Deploy to S3 bucket
-  #part of the Build with dependencies --- done
+  #my mistake was that I pushed the finished build. so I configured the web again.
+  #I represent it like this:
+1) Dev: git pull from a remote repository
+2) Connect to CMS using credentials.
+3) Dev configures the site in Contentful
+4) git add . -> git commit -> git push
+5) Git Actions triggered---> build ---> deploy to S3 using credentials
+
+  
