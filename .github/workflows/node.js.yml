@@ -2,9 +2,11 @@ name: CI-CD-Pipeline-to-S3
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
       
 jobs:
   start:
