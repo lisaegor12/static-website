@@ -18,7 +18,7 @@ jobs:
     
     - name: Execute few commands
       run : |
-        sudo nvm -v
+        nodejs -v
 
     - name: List current folder
       run : ls -la 
