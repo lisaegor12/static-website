@@ -1,0 +1,32 @@
+name: CI-CD
+
+on: 
+  push:
+    branches: 
+      - main
+  pull_request:
+    branches:
+      - main 
+
+jobs:
+  my_test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: update
+      run : sudo apt update
+      
+    - name: Git clone
+      uses: actions/checkout@v1 
+      
+    - name: npm install
+      run : npm install
+     
+    - name: Node.js
+      run : sudo apt install nodejs
+      
+    - name: Gatsby install
+      run : npm install -g gatsby-cli
+    
+    - name: Gatsby build 
+      run : gatsby build
