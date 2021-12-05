@@ -34,11 +34,18 @@
 5) Git Actions triggered---> build ---> deploy to S3 using credentials
 
   3.2 СI - completed 
-  #Finally !!!! I made a build. СI - finished. Just a little bit left )) 
   3.3 First of all i need to create User , and reciev creds. -done
+  #Finally !!!! I made a build. СI - finished. Just a little bit left )) 
   3.4 Add code to workflow - done
   3.5 Deploy to S3 done!!!
-  a few minutes and the build will be deployed on bucket 
   
+  #Error : This step has been truncated due to its large size
+  #if i make .zip file it will be good for delivery
+  #but as I know it is impossible to unzip the bucket in s3
+  #at the moment I can`t find a solution for this problem
+  
+  just in case, I'll leave the domain for CF -https://d18vkc1hzzhnvl.cloudfront.net/
+  The assignment was interesting, but I failed.
+  I learned what GH Actions and CMS are)))
 
   
