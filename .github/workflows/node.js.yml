@@ -18,8 +18,7 @@ jobs:
     
     - name: Execute few commands
       run : |
-        sudo apt update
-        nvm -v
+        sudo nvm -v
 
     - name: List current folder
       run : ls -la 
